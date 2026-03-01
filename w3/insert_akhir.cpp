@@ -9,9 +9,9 @@ Node* head = nullptr;
 
 void insertAkhir(int val) {
     Node* nodeBaru = new Node();
-    nodeBaru->data = val;
-    nodeBaru->next = nullptr;
-
+    nodeBaru->data = val; // isi data baru ke node baru
+    nodeBaru->next = nullptr; // node baru bakal jadi node terakhir, jadi next-nya null
+    // cek apakah list kosong
     if (head == nullptr) {
         head = nodeBaru;
         return;
@@ -21,7 +21,7 @@ void insertAkhir(int val) {
     while (temp->next != nullptr) {
         temp = temp->next;
     }
-    temp->next = nodeBaru;
+    temp->next = nodeBaru; // hubungkan node terakhir yang lama ke node baru
 }
 
 void display() {
@@ -38,7 +38,7 @@ int main() {
     insertAkhir(76);
     insertAkhir(65);
     insertAkhir(54);
-    std::cout << "Hasil insert akhir:\n";
+    std::cout << "Hasil insert akhir:\n"; // outputnya 76, 65, 54, NULL
     display();
     return 0;
 }

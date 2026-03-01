@@ -50,6 +50,6 @@ int main() {
     std::cout << "Sebelum delete akhir:\n"; display();
     
     deleteAkhir();
-    std::cout << "Setelah delete akhir:\n"; display();
+    std::cout << "Setelah delete akhir:\n"; display(); // bakal ngehapus angka 54
     return 0;
 }

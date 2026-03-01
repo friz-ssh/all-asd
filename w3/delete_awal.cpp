@@ -42,6 +42,6 @@ int main() {
     std::cout << "Sebelum delete awal:\n"; display();
     
     deleteAwal();
-    std::cout << "Setelah delete awal:\n"; display();
+    std::cout << "Setelah delete awal:\n"; display(); // bakal ngehapus angka 12
     return 0;
 }

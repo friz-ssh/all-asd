@@ -8,6 +8,7 @@ struct Node {
 Node* head = nullptr;
 
 void insertEmpty(int val) {
+    // cek apakah list tidak kosong
     if (head != nullptr) {
         std::cout << "List tidak kosong!\n";
         return;
@@ -30,6 +31,6 @@ void display() {
 
 int main() {
     insertEmpty(67);
-    display();
+    display(); // outputnya 67, NULL
     return 0;
 }

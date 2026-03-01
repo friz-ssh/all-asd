@@ -9,9 +9,9 @@ Node* head = nullptr;
 
 void insertAwal(int val) {
     Node* nodeBaru = new Node();
-    nodeBaru->data = val;
-    nodeBaru->next = head;
-    head = nodeBaru;
+    nodeBaru->data = val; // isi data baru ke node baru
+    nodeBaru->next = head; // menghubungkan node baru ke node yg udah ada (kalo ada)
+    head = nodeBaru; // set node baru buat jadi head
 }
 
 void display() {
@@ -28,7 +28,7 @@ int main() {
     insertAwal(76);
     insertAwal(65);
     insertAwal(54);
-    std::cout << "Hasil insert awal:\n";
+    std::cout << "Hasil insert awal:\n"; // outputnya 54, 65, 76, NULL
     display();
     return 0;
 }

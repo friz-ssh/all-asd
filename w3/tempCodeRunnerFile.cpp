@@ -49,8 +49,8 @@ int main() {
     buatList(78);
     std::cout << "List Awal:\n"; display();
     
-    // sisipkan 70 setelah angka 67
+    // Sisipkan 70 setelah angka 67
     insertTengah(67, 70);
-    std::cout << "Setelah insert tengah:\n"; display();  // outputnya 67, 70, 78, NULL
+    std::cout << "Setelah insert tengah:\n"; display(); 
     return 0;
 }
