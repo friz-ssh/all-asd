@@ -1,7 +1,5 @@
 # 📋 Tugas: Operasi Insert & Delete pada Linked-list
-
 Folder ini dibuat untuk memenuhi tugas sekaligus bukti kehadiran kelas Algoritma dan Struktur Data pada 27 Februari 2026.
----
 
 ## 📂 Struktur File
 ```bash
