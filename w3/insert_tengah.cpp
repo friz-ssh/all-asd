@@ -44,7 +44,7 @@ void display() {
 }
 
 int main() {
-    // bikin list awal dulu: 10 -> 30
+    // bikin list awal
     buatList(67);
     buatList(78);
     std::cout << "List Awal:\n"; display();

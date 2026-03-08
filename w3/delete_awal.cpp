@@ -37,7 +37,7 @@ void display() {
 }
 
 int main() {
-    // bikin list awal dulu
+    // bikin list awal
     buatList(12); buatList(23); buatList(34);
     std::cout << "Sebelum delete awal:\n"; display();
     
